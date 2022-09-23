@@ -1,0 +1,10 @@
+/home/cash-money/Downloads/BusinessLicenceRegistrationSystem/src/main/java/alldepartment/BusinessLicenceRegistrationSystem/repository/SupervisorRepository.java
+/home/cash-money/Downloads/BusinessLicenceRegistrationSystem/src/main/java/alldepartment/BusinessLicenceRegistrationSystem/api/SharedApi.java
+/home/cash-money/Downloads/BusinessLicenceRegistrationSystem/src/main/java/alldepartment/BusinessLicenceRegistrationSystem/models/Users.java
+/home/cash-money/Downloads/BusinessLicenceRegistrationSystem/src/main/java/alldepartment/BusinessLicenceRegistrationSystem/BusinessLicenceRegistrationSystemApplication.java
+/home/cash-money/Downloads/BusinessLicenceRegistrationSystem/src/main/java/alldepartment/BusinessLicenceRegistrationSystem/models/Customers.java
+/home/cash-money/Downloads/BusinessLicenceRegistrationSystem/src/main/java/alldepartment/BusinessLicenceRegistrationSystem/exception/CustomerNotfoundException.java
+/home/cash-money/Downloads/BusinessLicenceRegistrationSystem/src/main/java/alldepartment/BusinessLicenceRegistrationSystem/models/Supervisor.java
+/home/cash-money/Downloads/BusinessLicenceRegistrationSystem/src/main/java/alldepartment/BusinessLicenceRegistrationSystem/controller/SharedController.java
+/home/cash-money/Downloads/BusinessLicenceRegistrationSystem/src/main/java/alldepartment/BusinessLicenceRegistrationSystem/repository/UserRepository.java
+/home/cash-money/Downloads/BusinessLicenceRegistrationSystem/src/main/java/alldepartment/BusinessLicenceRegistrationSystem/repository/CustomerRepository.java
