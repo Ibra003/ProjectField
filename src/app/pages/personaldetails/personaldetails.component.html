@@ -1,0 +1,107 @@
+<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationCustom01" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Middle name</label>
+    <input type="text" class="form-control" id="validationCustom02" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Last Name</label>
+    <div class="input-group has-validation">
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Addrress</label>
+    <input type="text" class="form-control" id="validationCustom02" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Phone Number</label>
+    <input type="tel" class="form-control" id="validationCustom02" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Age</label>
+    <input type="number" class="form-control" id="validationCustom02" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Gender</label>
+    <select class="form-select">
+      <option selected>please select your gender</option>
+      <option value="1">Male</option>
+      <option value="2">Female</option>
+    </select>
+  </div>
+
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Maritial Status</label>
+    <select class="form-select">
+      <option selected>please select your status</option>
+      <option value="1">Married</option>
+      <option value="2">Single</option>
+      <option value="3">Widow</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="formFile" class="form-label">Upload your photo</label>
+  <input class="form-control" type="file" id="formFile">
+  </div>
+</form><br>
+
+<!-- submitt button below -->
+<div class="button" align="center">
+
+<button class="btn btn-success" [disabled]="" style="margin-right: 10px;margin-left: 10px;"
+ (click)="alertWithSuccess()">Submit your data</button>
+
+<button class="btn btn-info" (click)="onNextStep">Next</button>
+</div>
+
+
+
+
+
+
+
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+// (() => {
+//   'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  // const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  // Array.from(forms).forEach(form => {
+//     form.addEventListener('submit', event => {
+//       if (!form.checkValidity()) {
+//         event.preventDefault()
+//         event.stopPropagation()
+//       }
+
+//       form.classList.add('was-validated')
+//     }, false)
+//   })
+// })(
+//  </script>
